@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+    color: #ACA18C
+}
+
+/* sekcja header */
+
+header {
+    max-width: 1920px;
+    min-height: 50vh;
+    position: relative;
+    background-image: url('../img/headerphoto.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    text-align: center;
+}
+
+header .image {
+    position: absolute;
+}
+
+header img {
+    width: 50%;
+    border: 10px solid rgba(240, 237, 220, 0.5);
+    border-radius: 50%;
+}
+
+header h3 {
+    position: absolute;
+    text-transform: uppercase;
+    color: #F0EDDC;
+    font-size: 4.8em;
+    font-weight: 400;
+}
+
+header p {
+    font-size: 2em;
+    color: #F0EDDC;
+}
+
+header a {
+    color: #F0EDDC;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+
+
+/* sekcja courses */
+
+/* sekcja skills */
+
+/* sekcja experience */
+
+/* sekcja education */
