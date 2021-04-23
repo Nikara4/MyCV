@@ -1,3 +1,5 @@
+/* for all */
+
 * {
     margin: 0;
     padding: 0;
@@ -14,7 +16,61 @@ body {
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
     font-size: 10px;
-    color: #ACA18C;
+    color: #000;
+    background-color: #f2f3f3;
+}
+
+section {
+    max-width: 50vw;
+    margin: 0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #40506E;
+    font-size: 2.5em;
+    text-align: left;
+    margin: 45px 0 30px 0;
+}
+
+h2 {
+    font-size: 1.8em;
+    line-height: 2em;
+    font-weight: 600;
+    margin: 25px 0 15px 0;
+    color: #957F70;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 20px;
+}
+
+li,
+p {
+    font-size: 1.7em;
+    line-height: 1.9em;
+}
+
+
+
+.codeSkills ul>li:before {
+    content: "►";
+    padding-right: 0.5em;
+    color: #40506E;
+}
+
+.languages ul>li:before {
+    content: "►";
+    padding-right: 0.5em;
+    color: #40506E;
+}
+
+.otherSkills ul>li:before {
+    content: "►";
+    padding-right: 0.5em;
+    color: #40506E;
 }
 
 /* sekcja header */
@@ -45,7 +101,7 @@ header img:hover {
 header h3 {
     text-transform: uppercase;
     color: #F0EDDC;
-    font-size: 4em;
+    font-size: 3em;
     font-weight: 600;
     margin: 20px 0 30px 0;
 }
@@ -64,7 +120,7 @@ header .socialMedia {
 
 header .socialMedia a {
     color: #F0EDDC;
-    font-size: 4em;
+    font-size: 3.5em;
     text-decoration: none;
     transition: 0.4s;
     padding: 0 10px;
@@ -74,12 +130,112 @@ header .socialMedia a:hover {
     color: #ACA18C;
 }
 
-
-
 /* sekcja courses */
+
+
 
 /* sekcja skills */
 
+.codeSkills,
+.languages {
+    float: left;
+    width: 50%;
+}
+
 /* sekcja experience */
 
+.generalInfo,
+.Dscr {
+    float: left;
+    width: 50%;
+}
+
+.generalInfo {
+    width: 35%;
+    margin: 15px 0;
+}
+
+.Dscr {
+    width: 65%;
+    margin: 15px 0;
+}
+
+p:nth-child(2) {
+    font-size: 1.5em;
+    font-style: italic;
+}
+
+.generalInfo a {
+    font-size: 1.8em;
+    line-height: 2em;
+    font-weight: 500;
+    text-decoration: none;
+    color: #957F70;
+    transition: 0.3s;
+}
+
 /* sekcja education */
+
+.uniInfo {
+    margin: 25px 0;
+}
+
+.uniInfo a {
+    font-size: 1.8em;
+    line-height: 2em;
+    font-weight: 500;
+    text-decoration: none;
+    color: #957F70;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #40506E;
+}
+
+/* footer */
+
+footer {
+    padding: 1em 1.5em;
+    background: #ACA18C;
+    color: #F0EDDC;
+    text-align: right;
+}
+
+footer a {
+    text-decoration: none;
+    color: #40506E;
+    transition: 0.3s;
+}
+
+footer a:hover {
+    text-decoration: none;
+    color: #F0EDDC;
+    transition: 0.3s;
+}
+
+
+
+/* @media only screen and (max-width: 768px) { 
+    .course {
+      display: block;
+    }
+  
+    .course .title, .course .descrition {
+      max-width: 100%;
+    }
+  }
+  
+  @media only screen and (max-width: 576px) {
+    .skills {
+      display: block;
+    }
+  
+    .skills .column {
+      max-width: 100%;
+    }
+  
+    footer {
+      text-align: center;
+    }
+  }  */
