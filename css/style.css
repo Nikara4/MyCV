@@ -53,8 +53,6 @@ p {
     line-height: 1.9em;
 }
 
-
-
 .codeSkills ul>li:before {
     content: "►";
     padding-right: 0.5em;
@@ -73,9 +71,10 @@ p {
     color: #40506E;
 }
 
-/* sekcja header */
+/* section header */
 
 header {
+    position: relative;
     max-width: 1920px;
     min-height: 55vh;
     background-image: url('../img/head2.jpg');
@@ -84,6 +83,14 @@ header {
     background-repeat: no-repeat;
     margin: 0 auto;
     text-align: center;
+}
+
+header .arrowBack {
+    position: absolute;
+    left: 0%;
+    top: 2%;
+    text-align: left;
+    font-size: 1.2em;
 }
 
 header img {
@@ -118,7 +125,7 @@ header .socialMedia {
     padding-bottom: 25px;
 }
 
-header .socialMedia a {
+header a {
     color: #F0EDDC;
     font-size: 3.5em;
     text-decoration: none;
@@ -126,23 +133,11 @@ header .socialMedia a {
     padding: 0 10px;
 }
 
-header .socialMedia a:hover {
+header a:hover {
     color: #ACA18C;
 }
 
-/* sekcja courses */
-
-
-
-/* sekcja skills */
-
-.codeSkills,
-.languages {
-    float: left;
-    width: 50%;
-}
-
-/* sekcja experience */
+/* section courses */
 
 .generalInfo,
 .Dscr {
@@ -150,12 +145,32 @@ header .socialMedia a:hover {
     width: 50%;
 }
 
-.generalInfo {
+.courses .generalInfo {
+    width: 45%;
+    margin: 15px 0;
+}
+
+.courses .Dscr {
+    width: 55%;
+    margin: 15px 0;
+}
+
+/* section skills */
+
+.codeSkills,
+.languages {
+    float: left;
+    width: 50%;
+}
+
+/* section experience */
+
+.experience .generalInfo {
     width: 35%;
     margin: 15px 0;
 }
 
-.Dscr {
+.experience .Dscr {
     width: 65%;
     margin: 15px 0;
 }
@@ -174,23 +189,25 @@ p:nth-child(2) {
     transition: 0.3s;
 }
 
-/* sekcja education */
+a:hover {
+    color: #40506E;
+}
+
+/* section education */
+
+section.education {
+    margin-bottom: 45px;
+}
 
 .uniInfo {
     margin: 25px 0;
 }
 
-.uniInfo a {
+.uniInfo span {
     font-size: 1.8em;
     line-height: 2em;
     font-weight: 500;
-    text-decoration: none;
     color: #957F70;
-    transition: 0.3s;
-}
-
-a:hover {
-    color: #40506E;
 }
 
 /* footer */
@@ -214,28 +231,104 @@ footer a:hover {
     transition: 0.3s;
 }
 
+@media (max-width: 1024px) {
+    header {
+        min-height: 40vh;
+    }
 
+    section {
+        max-width: 80vw;
+    }
 
-/* @media only screen and (max-width: 768px) { 
-    .course {
-      display: block;
+    header p {
+        margin: 0 15vw;
     }
-  
-    .course .title, .course .descrition {
-      max-width: 100%;
+
+    .generalInfo,
+    .Dscr {
+        float: none;
+        width: 100%;
     }
-  }
-  
-  @media only screen and (max-width: 576px) {
-    .skills {
-      display: block;
+
+    .courses .Dscr {
+        width: 100%;
     }
-  
-    .skills .column {
-      max-width: 100%;
+
+    .courses .generalInfo {
+        width: 100%;
     }
-  
-    footer {
-      text-align: center;
+
+    .experience .Dscr {
+        width: 100%;
     }
-  }  */
+
+    .experience .generalInfo {
+        width: 100%;
+    }
+}
+
+@media (orientation:portrait) and (max-width: 1024px) {
+    body {
+        font-size: 15px;
+    }
+
+    section {
+        max-width: 90vw;
+    }
+
+    .codeSkills,
+    .languages {
+        float: none;
+        width: 100%;
+    }
+}
+
+@media (max-width: 832px) {
+    body {
+        font-size: 10px;
+    }
+
+    header img {
+        width: 17%;
+    }
+
+    header p {
+        line-height: 22px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    header img {
+        width: 16%;
+    }
+
+    body {
+        font-size: 10px;
+    }
+
+    header p {
+        line-height: 20px;
+    }
+}
+
+@media (max-width: 667px) {
+    header img {
+        width: 17%;
+    }
+
+    body {
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 414px) {
+    header img {
+        width: 35%;
+    }
+
+    header p {
+        line-height: 25px;
+        margin: 0 10vw;
+    }
+}
