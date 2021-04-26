@@ -4,25 +4,21 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Features](#features)
 * [Status](#status)
 * [Inspiration](#inspiration)
 
 ## General info
-to be added
+The webpage is a simple resume with information about my work experience, education, skills and finished IT courses.
 
 ## Technologies
 * HTML 5
 * CSS
 
 ## Setup
-A link to demo version will be available soon.
-
-## Features
-to be added
+[github pages link](https://nikara4.github.io/MyCV/)
 
 ## Status
-Project is: in progress. 
+Project is: completed. I do not intend to add any interactive features on this page. I will expand my skills and courses section as I go. 
 
 ## Inspiration
 This project is based on a final excercise from the course: Web developer od podstaw w 15 dni - [Samuraj Programowania](https://websamuraj.pl/)
