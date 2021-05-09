@@ -231,6 +231,20 @@ footer a:hover {
     transition: 0.3s;
 }
 
+@media (max-width: 1366px) {
+    header {
+        min-height: 40vh;
+    }
+
+    section {
+        max-width: 70vw;
+    }
+
+    header p {
+        margin: 0 25vw;
+    }
+}
+
 @media (max-width: 1024px) {
     header {
         min-height: 40vh;
