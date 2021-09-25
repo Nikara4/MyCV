@@ -138,20 +138,19 @@ header a:hover {
 }
 
 /* section courses */
-
-.generalInfo,
-.Dscr {
-    float: left;
-    width: 50%;
+.courses .wrap {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .courses .generalInfo {
-    width: 45%;
+    width: 40%;
     margin: 15px 0;
 }
 
 .courses .Dscr {
-    width: 55%;
+    width: 60%;
     margin: 15px 0;
 }
 
@@ -164,6 +163,12 @@ header a:hover {
 }
 
 /* section experience */
+
+.experience .generalInfo,
+.experience .Dscr {
+    float: left;
+    width: 50%;
+}
 
 .experience .generalInfo {
     width: 35%;
@@ -187,6 +192,10 @@ p:nth-child(2) {
     text-decoration: none;
     color: #957F70;
     transition: 0.3s;
+}
+
+.generalInfo a.cert {
+    font-size: 1.6em;
 }
 
 a:hover {
