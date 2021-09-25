@@ -196,6 +196,7 @@ p:nth-child(2) {
 
 .generalInfo a.cert {
     font-size: 1.6em;
+    color: #40506E;
 }
 
 a:hover {
