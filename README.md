@@ -18,7 +18,10 @@ The webpage is a simple resume with information about my work experience, educat
 [github pages link](https://nikara4.github.io/MyCV/)
 
 ## Status
-Project is: completed. 
+Project is: completed.
+
+**Update 09/05/2021**: Adjusted media queries to work on 1366px resolution on desktop. This resolution was previously untouched and it resulted in a couple errors with float property.
+
 I do not intend to add any interactive features on this page. I will expand skills and courses sections as I go. 
 
 ## Inspiration
