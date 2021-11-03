@@ -95,14 +95,14 @@ header .arrowBack {
 
 header img {
     width: 10%;
-    border: 10px solid rgba(240, 237, 220, 0.5);
+    border: 10px solid rgba(149, 127, 112, 0.8);
     border-radius: 50%;
     margin-top: 2vh;
     transition: 0.5s;
 }
 
 header img:hover {
-    border: 10px solid #F0EDDC;
+    border: 10px solid rgba(240, 237, 220, 0.8);
 }
 
 header h3 {
@@ -111,6 +111,7 @@ header h3 {
     font-size: 3em;
     font-weight: 600;
     margin: 20px 0 30px 0;
+    letter-spacing: 3px;
 }
 
 header p {
@@ -180,7 +181,7 @@ header a:hover {
     margin: 15px 0;
 }
 
-p:nth-child(2) {
+.italics {
     font-size: 1.5em;
     font-style: italic;
 }
