@@ -20,6 +20,8 @@ The webpage is a simple resume with information about my work experience, educat
 ## Status
 Project is: completed.
 
+**Update 25/05/2022**: Added new courses anchanged styles to match the new portfolio.
+
 **Update 25/09/2021**: Added new courses and linked certificates of completion.
 
 **Update 09/05/2021**: Adjusted media queries to work on 1366px resolution on desktop. This resolution was previously untouched and it resulted in a couple errors with float property.
