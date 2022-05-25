@@ -13,11 +13,11 @@
 }
 
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Space Grotesk", sans-serif;
     font-weight: 300;
     font-size: 10px;
-    color: #000;
-    background-color: #f2f3f3;
+    color: rgb(228, 230, 231);
+    background-color: #0F1624;
 }
 
 section {
@@ -27,9 +27,10 @@ section {
 
 h1 {
     text-transform: uppercase;
-    font-weight: 600;
-    color: #40506E;
-    font-size: 2.5em;
+    font-weight: 500;
+    letter-spacing: 5px;
+    color: rgb(242, 245, 247);
+    font-size: 3em;
     text-align: left;
     margin: 45px 0 30px 0;
 }
@@ -37,9 +38,9 @@ h1 {
 h2 {
     font-size: 1.8em;
     line-height: 2em;
-    font-weight: 600;
+    font-weight: 500;
     margin: 25px 0 15px 0;
-    color: #957F70;
+    color: rgba(255, 255, 255, 0.7);
 }
 
 ul {
@@ -56,19 +57,19 @@ p {
 .codeSkills ul>li:before {
     content: "►";
     padding-right: 0.5em;
-    color: #40506E;
+    color: rgb(19, 173, 199);
 }
 
 .languages ul>li:before {
     content: "►";
     padding-right: 0.5em;
-    color: #40506E;
+    color: rgb(19, 173, 199);
 }
 
 .otherSkills ul>li:before {
     content: "►";
     padding-right: 0.5em;
-    color: #40506E;
+    color: rgb(19, 173, 199);
 }
 
 /* section header */
@@ -77,10 +78,7 @@ header {
     position: relative;
     max-width: 1920px;
     min-height: 55vh;
-    background-image: url('../img/head2.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: rgba(148, 93, 214, 0.5);
     margin: 0 auto;
     text-align: center;
 }
@@ -95,28 +93,28 @@ header .arrowBack {
 
 header img {
     width: 10%;
-    border: 10px solid rgba(149, 127, 112, 0.8);
+    border: 10px solid rgba(242, 245, 247, 0.5);
     border-radius: 50%;
     margin-top: 2vh;
     transition: 0.5s;
 }
 
 header img:hover {
-    border: 10px solid rgba(240, 237, 220, 0.8);
+    border: 10px solid rgba(19, 173, 199, 0.8);
 }
 
 header h3 {
     text-transform: uppercase;
-    color: #F0EDDC;
-    font-size: 3em;
-    font-weight: 600;
-    margin: 20px 0 30px 0;
-    letter-spacing: 3px;
+    color: rgb(242, 245, 247);
+    font-size: 3.5em;
+    font-weight: 500;
+    margin: 20px 0;
+    letter-spacing: 5px;
 }
 
 header p {
     font-size: 1.6em;
-    color: #F0EDDC;
+    color: rgb(242, 245, 247);
     margin: 0 32vw;
     line-height: 30px;
 }
@@ -127,7 +125,7 @@ header .socialMedia {
 }
 
 header a {
-    color: #F0EDDC;
+    color: rgb(242, 245, 247);
     font-size: 3.5em;
     text-decoration: none;
     transition: 0.4s;
@@ -135,7 +133,7 @@ header a {
 }
 
 header a:hover {
-    color: #ACA18C;
+    color: rgb(19, 173, 199);
 }
 
 /* section courses */
@@ -196,17 +194,17 @@ header a:hover {
     line-height: 2em;
     font-weight: 500;
     text-decoration: none;
-    color: #957F70;
+    color: rgb(19, 173, 199);
     transition: 0.3s;
 }
 
 .generalInfo a.cert {
     font-size: 1.6em;
-    color: #40506E;
+    color: rgb(148, 93, 214);
 }
 
 a:hover {
-    color: #40506E;
+    color: rgb(148, 93, 214);
 }
 
 /* section education */
@@ -223,21 +221,21 @@ section.education {
     font-size: 1.8em;
     line-height: 2em;
     font-weight: 500;
-    color: #957F70;
+    color: rgb(19, 173, 199);
 }
 
 /* footer */
 
 footer {
     padding: 1em 1.5em;
-    background: #ACA18C;
+    background-color: rgba(148, 93, 214, 0.6);
     color: #F0EDDC;
     text-align: right;
 }
 
 footer a {
     text-decoration: none;
-    color: #40506E;
+    color: rgb(19, 173, 199);
     transition: 0.3s;
 }
 
